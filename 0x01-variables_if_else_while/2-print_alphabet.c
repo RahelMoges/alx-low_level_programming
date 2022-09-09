@@ -1,13 +1,16 @@
 #include <stdio.h>
-#include <unistd.h>
-int main(void)
+/**
+ * main - Entry point
+ * Return: Always 0 (Success)
+ */
+int main(void)  
 {
-int ch;
-for (ch ='a'; ch<='z'; ch++)
-{
-putchar(ch);
-}
+char c;
+for (c = 'a'; c <= 'z'; c++)
+putchar(c);
 putchar('\n');
 return (0);
 }
+
+
      
