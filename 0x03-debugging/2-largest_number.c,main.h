@@ -18,5 +18,4 @@ else if (c > b)
 largest = c;
 }
 return (largest);
-  
 }
