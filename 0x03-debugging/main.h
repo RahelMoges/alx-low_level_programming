@@ -1,21 +1,12 @@
-#include "holberton.h"
+#include "main.h"
 /**
-* largest_number - returns the largest of 3 numbers
-* @a: first int
-* @b: second int
-* @c: third int
-* Return: largest number
+* main - tests function that prints if integer is positive or negative
+* Return: 0
 */
-int largest_number(int a, int b, int c)
+int main(void)
 {
-int largest = b;
-if (a > b)
-{
-largest = a;
-}
-else if (c > b)
-{
-largest = c;
-}
-return (largest);
+int i;
+i = 0;
+positive_or_negative(i);
+return (0);
 }
