@@ -1,18 +1,6 @@
-#include "main.h"
-#include <stdio.h>
+#ifndef MAIN_H
+#define MAIN_H
+int _putchar(char c);
 
-/**
-* main - check the code 
-*
-* Return: Always 0.
-*/
 
-int main(void)
-{
-int n;
-n = 402;
-printf("n=%d\n", n);
-reset_to_98(&n);
-printf("n=%d\n", n);
-return (0);
-}
+endif
