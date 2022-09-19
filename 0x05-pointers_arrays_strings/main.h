@@ -1,6 +1,13 @@
-#ifndef MAIN_H
-#define MAIN_H
-int _putchar(char c);
+#include <main.h>
 
+/**
+* reset_to_98 - points to an int as parameter and
+* update the value it points to 98
+* @n: n is the pointer of n and return the value 98
+* Return: always 0.
+*/
 
-endif
+void reset_to_98(int *n)
+{
+*n = 98;
+}
