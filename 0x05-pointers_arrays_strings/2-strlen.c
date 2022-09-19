@@ -1,18 +1,20 @@
 #include "main.h"
-#include <stdio.h>
 
 /**
-* main - check the code
-*
-* Return: Always 0.
-*/
-
-int main(void)
+ * _strlen - function with 1 argument
+ * @s: char type pointer
+ *
+ * Description: strlen similiar function to return length
+ * Return: string
+ */
+int _strlen(char *s)
 {
-char *str;
-int len;
-str = "My first strlen!";
-len = _strlen(str);
-printf("%d\n", len);
-return (0);
+	int i;
+
+	i = 0;
+	while (*(s + i) != '\0')
+	{
+		i++;
+	}
+	return (i);
 }
