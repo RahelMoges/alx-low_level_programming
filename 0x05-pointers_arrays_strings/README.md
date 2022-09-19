@@ -1,0 +1,1 @@
+pointers array and string ,pointer is a variable whose value is the address of another variabl
