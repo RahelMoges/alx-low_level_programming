@@ -1,4 +1,4 @@
-#ifndef holberton_h
+#ifndef main_h
 
 #define holberton_h
 
